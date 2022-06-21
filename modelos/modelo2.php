@@ -20,14 +20,20 @@
                 <span><?= $dados['telefone']; ?></span>
             </div>
             <div class="topico-lateral">
+                <img src= "img/icone-whats-1.png" alt="WhatsApp">
+                <span><?= $dados['WhatsApp']; ?></span>
+            </div>
+            <div class="topico-lateral">
                 <img src="img/icone-email-1.png" alt="E-mail">
                 <span><?= $dados['email']; ?></span>
             </div>
         </section>
         <section class="principal">
             <h1><?= $dados['nome']; ?></h1>
+
+            <h2><?= $dados['nome']; ?></h2>
             
-            <h2><?= $dados['cargo']; ?></h2>
+            <h3><?= $dados['cargo']; ?></h3>
             
             <p><?= $dados['resumo']; ?></p>
             

@@ -22,8 +22,10 @@ if($_FILES['foto']['size'] > 0){
 $dados = array(
     'foto' => $foto,
     'nome' => $_POST['nome'],
+    'Idade' => $_POST['Idade'],
     'cargo' => $_POST['cargo'],
     'endereco' => $_POST['endereco'],
+    'WhatsApp' => $_POST['WhatsApp'],
     'telefone' => $_POST['telefone'],
     'email' => $_POST['email'],
     'resumo' => $_POST['resumo'],

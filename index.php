@@ -3,13 +3,13 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Gerador de Currículo</title>
+    <title>Curriculo - Dani Freitas</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Gerador de Currículos</a>
+        <a class="navbar-brand" href="#">Faça seu Curriculo</a>
     </nav>
     <main class="container" style="margin-top:20px">
         <form action="gerarCurriculo.php" method="post" target="_blank" enctype="multipart/form-data">
@@ -20,6 +20,10 @@
                     <div class="form-group">
                         <label for="nome">Nome</label>
                         <input type="text" class="form-control" name="nome" id="nome">
+                    </div>
+                    <div class="form-group">
+                        <label for="Idade">Idade</label>
+                        <input type="text" class="form-control" name="Idade" id="Idade">
                     </div>
                     <div class="row">
                         <div class="col">
@@ -44,6 +48,11 @@
                             <div class="form-group">
                                 <label for="telefone">Telefone</label>
                                 <input type="text" class="form-control" name="telefone" id="telefone">
+                                <div class="row">
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="hatsApp">WhatsApp</label>
+                                <input type="text" class="form-control" name="WhatsApp" id="whatsApp">                     
                             </div>
                         </div> 
                         <div class="col">
@@ -75,11 +84,11 @@
                         <div class="col-12 col-md-4">
                             <div class="form-check form-check-inline">
                                 <label class="form-check-label">
-                                    <input class="form-check-input" type="radio" name="modelo" id="modelo1" value="modelo1" checked> Moderno preto
+                                    <input class="form-check-input" type="radio" name="modelo" id="modelo2" value="modelo2" checked> Curriculo
                                 </label>
                             </div>
                         </div>
-                        <div class="col-12 col-md-4">
+                        <!-- <div class="col-12 col-md-4">
                             <div class="form-check form-check-inline">
                                 <label class="form-check-label">
                                  <input class="form-check-input" type="radio" name="modelo" id="modelo2" value="modelo2"> Moderno azul
@@ -95,7 +104,7 @@
                         </div>
                     </div>
                 </div>
-                
+                 -->
                 <div class="card-footer">
                     <button class="btn btn-primary" type="submit">Gerar currículo</button>
                     <button class="btn btn-default" type="reset">Limpar campos</button>

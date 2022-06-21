@@ -5,16 +5,16 @@ body {
     border: 0px;
 }
 
-main{
+main {
     display: flex;
     width: 100%;
     min-height: 100vh;
 }
 
-main .lateral{
+main .lateral {
     width: 30%;
     min-height: 100vh;
-    background-color:rgb(0, 177, 219);
+    background-color: #ff4757;
     padding: 10px;
     box-sizing: border-box;
     display: flex;
@@ -26,7 +26,7 @@ main .lateral{
 
 main .lateral .foto {
     border-radius: 50%;
-    border:3px solid rgb(255, 255, 255);
+    border: 3px solid white;
     width: 70%;
     max-width: 300px;
     max-height: 300px;
@@ -34,7 +34,7 @@ main .lateral .foto {
 
 main .lateral .topico-lateral {
     font-family: 'PT Sans';
-    color: rgb(255, 255, 255);
+    color: #ff6b81;
     display: flex;
     align-items: center;
     align-self: flex-start;
@@ -46,10 +46,10 @@ main .lateral .topico-lateral img {
     margin: 0px 10px;
 }
 
-main .principal{
+main .principal {
     width: 70%;
     min-height: 100vh;
-    background-color:rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
     padding: 10px;
     box-sizing: border-box;
     font-family: 'PT Sans';
@@ -59,7 +59,7 @@ main .principal{
 }
 
 main .principal h1 {
-    color: rgb(75, 178, 219);
+    color: #ff4757;
     text-transform: uppercase;
     font-size: xx-large;
     font-family: 'Encode Sans Expanded';
@@ -87,13 +87,13 @@ main .principal .cabecalho-secao {
 }
 
 main .principal .cabecalho-secao h3 {
-    color: rgb(75, 178, 219);
+    color: #ff4757;
     margin: 0px 10px;
 }
 
-main .principal .cabecalho-secao .separador{
+main .principal .cabecalho-secao .separador {
     width: 100%;
-    border-bottom: 1px solid rgb(23, 23, 23);
+    border-bottom: 1px solid #5352ed;
 }
 
 main .principal .lista-topicos {
@@ -103,7 +103,7 @@ main .principal .lista-topicos {
 }
 
 main .principal .lista-topicos li h4 {
-    color: rgb(75, 178, 219);
+    color: #70a1ff;
     font-weight: bolder;
     margin-bottom: 0px;
 }
